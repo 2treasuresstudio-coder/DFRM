@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d147be037fb4ab4c8fc841526555272, type: 3}
+  m_Name: DaytonaSpeedway
+  m_EditorClassIdentifier: Assembly-CSharp::TrackData
+  trackName: Daytona Speedway
+  trackDescription: The biggest event in stock car racing. Win this race to complete
+    your career.
+  requiredRating: 1000
+  entryFee: 500000
+  firstPrize: 5000000
+  secondPrize: 2000000
+  thirdPrize: 1000000
+  trackImage: {fileID: 1195363023384506640, guid: 187fd72c6ffc130438e94e0eb5926800, type: 3}
+  straightPercent: 85
+  cornerPercent: 10
+  technicalPercent: 5

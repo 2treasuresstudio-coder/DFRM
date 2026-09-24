@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d147be037fb4ab4c8fc841526555272, type: 3}
+  m_Name: NationalSpeedway
+  m_EditorClassIdentifier: Assembly-CSharp::TrackData
+  trackName: National Speedway
+  trackDescription: One of the fastest tracks in the country.
+  requiredRating: 600
+  entryFee: 100000
+  firstPrize: 500000
+  secondPrize: 250000
+  thirdPrize: 100000
+  trackImage: {fileID: 1195363023384506640, guid: 187fd72c6ffc130438e94e0eb5926800, type: 3}
+  straightPercent: 80
+  cornerPercent: 15
+  technicalPercent: 5

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d147be037fb4ab4c8fc841526555272, type: 3}
+  m_Name: StockCarRace
+  m_EditorClassIdentifier: Assembly-CSharp::TrackData
+  trackName: Stock Car Race
+  trackDescription: Perfect for earning steady income and developing your team.
+  requiredRating: 0
+  entryFee: 0
+  firstPrize: 250
+  secondPrize: 150
+  thirdPrize: 75
+  trackImage: {fileID: 3438595648220591726, guid: 792080975d079f94ebf988031b4674d0, type: 3}
+  straightPercent: 50
+  cornerPercent: 40
+  technicalPercent: 10

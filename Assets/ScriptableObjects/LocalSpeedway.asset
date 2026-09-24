@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d147be037fb4ab4c8fc841526555272, type: 3}
+  m_Name: LocalSpeedway
+  m_EditorClassIdentifier: Assembly-CSharp::TrackData
+  trackName: Local Speedway
+  trackDescription: A local oval where acceleration and top speed matter.
+  requiredRating: 100
+  entryFee: 1000
+  firstPrize: 5000
+  secondPrize: 2500
+  thirdPrize: 1250
+  trackImage: {fileID: 4411980410888491217, guid: 7184a6b48de5a59448987b92fa07341b, type: 3}
+  straightPercent: 60
+  cornerPercent: 30
+  technicalPercent: 10
