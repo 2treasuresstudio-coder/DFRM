@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TrackData
   trackName: National Speedway
   trackDescription: One of the fastest tracks in the country.
+  trackImage: {fileID: 1195363023384506640, guid: 187fd72c6ffc130438e94e0eb5926800, type: 3}
   requiredRating: 600
   entryFee: 100000
   firstPrize: 500000
   secondPrize: 250000
   thirdPrize: 100000
-  trackImage: {fileID: 1195363023384506640, guid: 187fd72c6ffc130438e94e0eb5926800, type: 3}
   straightPercent: 80
   cornerPercent: 15
   technicalPercent: 5
+  isLeagueEvent: 1

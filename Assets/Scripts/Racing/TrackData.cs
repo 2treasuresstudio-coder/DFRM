@@ -1,31 +1,40 @@
 using UnityEngine;
 
 [CreateAssetMenu(
-    fileName = "New Track",
-    menuName = "Idle Racing/Track Data")]
+    fileName = "TrackData",
+    menuName = "Racing/Track Data")]
 public class TrackData : ScriptableObject
 {
+    [Header("Track Info")]
     public string trackName;
+
+    [TextArea]
     public string trackDescription;
 
+    public Sprite trackImage;
+
+    [Header("Requirements")]
     public int requiredRating;
 
     public int entryFee;
 
+    [Header("Prizes")]
     public int firstPrize;
 
     public int secondPrize;
 
     public int thirdPrize;
 
-    public Sprite trackImage;
+    [Header("Track Layout")]
+    [Range(0, 100)]
+    public int straightPercent;
 
     [Range(0, 100)]
-    public float straightPercent = 50f;
+    public int cornerPercent;
 
     [Range(0, 100)]
-    public float cornerPercent = 30f;
+    public int technicalPercent;
 
-    [Range(0, 100)]
-    public float technicalPercent = 20f;
+    [Header("League")]
+    public bool isLeagueEvent;
 }

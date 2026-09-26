@@ -345,6 +345,18 @@ public class RaceSimulationManager : MonoBehaviour
     {
         driver.Races++;
 
+        //if (TrackManager.Instance != null &&
+        //    TrackManager.Instance.currentTrack != null &&
+        //    TrackManager.Instance.stockCarRaceTrack != null &&
+        //    TrackManager.Instance.currentTrack !=
+        //    TrackManager.Instance.stockCarRaceTrack)
+        //{
+        //    driver.LeagueEvents++;
+
+        //    Debug.Log(
+        //        $"League Event Completed: {driver.LeagueEvents}");
+        //}
+
         switch (currentPosition)
         {
             case 1:
@@ -417,6 +429,7 @@ public class RaceSimulationManager : MonoBehaviour
 
         Debug.Log(
             $"Race {raceNumber} Complete | " +
+            $"Track: {(TrackManager.Instance.currentTrack != null ? TrackManager.Instance.currentTrack.trackName : "None")} | " +
             $"Position:{currentPosition} | " +
             $"Prize:${currentPrize:N0}");
 
@@ -425,6 +438,7 @@ public class RaceSimulationManager : MonoBehaviour
         Debug.Log(
             $"Career Updated | " +
             $"Races:{driver.Races} | " +
+            $"League Events:{driver.LeagueEvents} | " +
             $"Wins:{driver.Wins} | " +
             $"Podiums:{driver.Podiums}");
     }

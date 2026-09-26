@@ -5,7 +5,7 @@ public class TeamManager : MonoBehaviour
     public static TeamManager Instance;
 
     [Header("Team")]
-    public string companyName = "New Racing Team";
+    public string companyName = "";
 
     private void Awake()
     {

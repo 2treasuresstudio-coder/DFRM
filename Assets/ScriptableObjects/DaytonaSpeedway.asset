@@ -15,12 +15,13 @@ MonoBehaviour:
   trackName: Daytona Speedway
   trackDescription: The biggest event in stock car racing. Win this race to complete
     your career.
+  trackImage: {fileID: 1195363023384506640, guid: 187fd72c6ffc130438e94e0eb5926800, type: 3}
   requiredRating: 1000
   entryFee: 500000
   firstPrize: 5000000
   secondPrize: 2000000
   thirdPrize: 1000000
-  trackImage: {fileID: 1195363023384506640, guid: 187fd72c6ffc130438e94e0eb5926800, type: 3}
   straightPercent: 85
   cornerPercent: 10
   technicalPercent: 5
+  isLeagueEvent: 1

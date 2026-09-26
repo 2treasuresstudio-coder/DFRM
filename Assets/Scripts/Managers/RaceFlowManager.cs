@@ -185,6 +185,22 @@ public class RaceFlowManager : MonoBehaviour
         {
             TrackManager.Instance
                 .ConsumeQueuedTrack();
+
+            if (DriverManager.Instance != null)
+            {
+                DriverData player =
+                    DriverManager.Instance.GetDriver(0);
+
+                if (player != null &&
+                    TrackManager.Instance.currentTrack != null &&
+                    TrackManager.Instance.currentTrack.isLeagueEvent)
+                {
+                    player.LeagueEvents++;
+
+                    Debug.Log(
+                        $"League Event Started: {player.LeagueEvents}");
+                }
+            }
         }
 
         if (RaceManager.Instance != null)

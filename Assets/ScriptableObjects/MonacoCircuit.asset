@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TrackData
   trackName: Monaco Circuit
   trackDescription: A technical circuit rewarding precision and consistency.
+  trackImage: {fileID: -7516881874443484024, guid: fcd9dba4f66e30b49bcaffd9cf8d4769, type: 3}
   requiredRating: 300
   entryFee: 25000
   firstPrize: 100000
   secondPrize: 50000
   thirdPrize: 25000
-  trackImage: {fileID: -7516881874443484024, guid: fcd9dba4f66e30b49bcaffd9cf8d4769, type: 3}
   straightPercent: 20
   cornerPercent: 60
   technicalPercent: 20
+  isLeagueEvent: 1

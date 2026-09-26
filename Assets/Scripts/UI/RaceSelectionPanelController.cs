@@ -260,7 +260,7 @@ public class RaceSelectionPanelController : MonoBehaviour
             CarData car =
                 CarManager.Instance.GetPlayerCar();
 
-            if (car != null)
+            if (car != null)  
             {
                 carRating =
                     car.TopSpeed +

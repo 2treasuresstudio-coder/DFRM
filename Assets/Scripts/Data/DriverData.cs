@@ -42,6 +42,8 @@ public class DriverData
 
     public int Championships;
 
+    public int LeagueEvents;
+
     public int ChampionshipPoints;
 
     public Sprite Portrait;

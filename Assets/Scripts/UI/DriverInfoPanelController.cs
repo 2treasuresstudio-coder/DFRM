@@ -129,7 +129,6 @@ public class DriverInfoPanelController : MonoBehaviour
             driver != null &&
             !string.IsNullOrEmpty(driver.DriverName);
 
-        // DRIVER 2 EMPTY SLOT
         if (selectedIndex == 1 &&
             !driverExists)
         {
@@ -137,7 +136,6 @@ public class DriverInfoPanelController : MonoBehaviour
             return;
         }
 
-        // DRIVER 1 EMPTY SLOT
         if (selectedIndex == 0 &&
             !driverExists)
         {
@@ -147,8 +145,8 @@ public class DriverInfoPanelController : MonoBehaviour
 
         PopulateDriver(driver);
 
-        // Driver exists
         upgradeButton.gameObject.SetActive(true);
+
         hireDriverButton.gameObject.SetActive(false);
 
         if (upgradeManager != null)
@@ -161,6 +159,9 @@ public class DriverInfoPanelController : MonoBehaviour
     private void PopulateDriver(
         DriverData driver)
     {
+        Debug.Log(
+    $"Driver Panel LeagueEvents = {driver.LeagueEvents}");
+
         driverNameText.text =
             driver.DriverName;
 
@@ -207,7 +208,7 @@ public class DriverInfoPanelController : MonoBehaviour
             driver.Podiums.ToString("N0");
 
         championshipsText.text =
-            driver.Championships.ToString("N0");
+            driver.LeagueEvents.ToString("N0");
 
         LoadTraitBanner(
             traitIcon,
