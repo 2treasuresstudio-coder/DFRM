@@ -24008,7 +24008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1392976166
 Transform:
   m_ObjectHideFlags: 0
@@ -25680,7 +25680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RaceManager
   currentLap: 0
   totalLaps: 9999
-  gold: 200000
+  gold: 0
   refuelCost: 50
   tireChangeCost: 75
   fuel: 100
@@ -32613,6 +32613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RaceFlowManager
   raceFlowPanel: {fileID: 1125262601}
+  eventTitle: {fileID: 1981316873}
   eventTitleText: {fileID: 1981316875}
   countdownText: {fileID: 1415158771}
   messageText: {fileID: 847000782}

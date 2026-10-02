@@ -9,7 +9,7 @@ public class RaceFlowManager : MonoBehaviour
 
     [Header("UI")]
     public GameObject raceFlowPanel;
-
+    public GameObject eventTitle;
     public TextMeshProUGUI eventTitleText;
     public TextMeshProUGUI countdownText;
     public TextMeshProUGUI messageText;
@@ -97,6 +97,7 @@ public class RaceFlowManager : MonoBehaviour
     private IEnumerator ShowNextRacePanel()
     {
         raceFlowPanel.SetActive(true);
+        eventTitle.SetActive(true);
 
         if (TrackManager.Instance != null &&
             TrackManager.Instance.currentTrack != null)
@@ -138,6 +139,7 @@ public class RaceFlowManager : MonoBehaviour
     private IEnumerator ShowCountdown()
     {
         raceFlowPanel.SetActive(true);
+        eventTitle.SetActive(false);
 
         resultText.text = "";
 
