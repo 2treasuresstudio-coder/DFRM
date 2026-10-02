@@ -24,14 +24,15 @@ public class RaceHUDController : MonoBehaviour
 
     [Header("Standings")]
     public TextMeshProUGUI position1Text;
-
     public TextMeshProUGUI position2Text;
-
     public TextMeshProUGUI position3Text;
-
     public TextMeshProUGUI position4Text;
-
     public TextMeshProUGUI position5Text;
+    public TextMeshProUGUI position6Text;
+    public TextMeshProUGUI position7Text;
+    public TextMeshProUGUI position8Text;
+    public TextMeshProUGUI position9Text;
+    public TextMeshProUGUI position10Text;
 
     [Header("Boost")]
     public Image boostFillImage;
@@ -170,22 +171,46 @@ public class RaceHUDController : MonoBehaviour
         if (RaceTrackVisualManager.Instance == null)
             return;
 
-        position1Text.text =
-            RaceTrackVisualManager.Instance.GetStandingText(0);
+        if (position1Text != null)
+            position1Text.text =
+                RaceTrackVisualManager.Instance.GetStandingText(0);
 
-        position2Text.text =
-            RaceTrackVisualManager.Instance.GetStandingText(1);
+        if (position2Text != null)
+            position2Text.text =
+                RaceTrackVisualManager.Instance.GetStandingText(1);
 
-        position3Text.text =
-            RaceTrackVisualManager.Instance.GetStandingText(2);
+        if (position3Text != null)
+            position3Text.text =
+                RaceTrackVisualManager.Instance.GetStandingText(2);
 
-        position4Text.text =
-            RaceTrackVisualManager.Instance.GetStandingText(3);
+        if (position4Text != null)
+            position4Text.text =
+                RaceTrackVisualManager.Instance.GetStandingText(3);
 
-        position5Text.text =
-            RaceTrackVisualManager.Instance.GetStandingText(4);
+        if (position5Text != null)
+            position5Text.text =
+                RaceTrackVisualManager.Instance.GetStandingText(4);
+
+        if (position6Text != null)
+            position6Text.text =
+                RaceTrackVisualManager.Instance.GetStandingText(5);
+
+        if (position7Text != null)
+            position7Text.text =
+                RaceTrackVisualManager.Instance.GetStandingText(6);
+
+        if (position8Text != null)
+            position8Text.text =
+                RaceTrackVisualManager.Instance.GetStandingText(7);
+
+        if (position9Text != null)
+            position9Text.text =
+                RaceTrackVisualManager.Instance.GetStandingText(8);
+
+        if (position10Text != null)
+            position10Text.text =
+                RaceTrackVisualManager.Instance.GetStandingText(9);
     }
-
     private void UpdateBoostUI()
     {
         if (RaceManager.Instance == null)

@@ -28,17 +28,17 @@ public class CarManager : MonoBehaviour
 
         playerCar.CarName = "Starter Chassis";
 
-        playerCar.TopSpeed = 100;
+        playerCar.TopSpeed = 10;
 
-        playerCar.Acceleration = 100;
+        playerCar.Acceleration = 10;
 
-        playerCar.Handling = 100;
+        playerCar.Handling = 10;
 
-        playerCar.Reliability = 100;
+        playerCar.Reliability = 10;
 
-        playerCar.FuelEfficiency = 100;
+        playerCar.FuelEfficiency = 10;
 
-        playerCar.TireManagement = 100;
+        playerCar.TireManagement = 10;
 
         playerCar.UpgradeLevel = 0;
     }

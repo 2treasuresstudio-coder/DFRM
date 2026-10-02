@@ -203,22 +203,22 @@ public class DriverManager : MonoBehaviour
                     Random.Range(1, 21);
 
                 driver.Racecraft =
-                    Random.Range(1, 100);
+                    Random.Range(1, 10);
 
                 driver.Consistency =
-                    Random.Range(1, 100);
+                    Random.Range(1, 10);
 
                 driver.Aggression =
-                    Random.Range(1, 100);
+                    Random.Range(1, 10);
 
                 driver.Adaptability =
-                    Random.Range(1, 100);
+                    Random.Range(1, 10);
 
                 driver.Fitness =
-                    Random.Range(1, 100);
+                    Random.Range(1, 10);
 
                 driver.Potential =
-                    Random.Range(1, 100);
+                    Random.Range(1, 10);
 
                 break;
 

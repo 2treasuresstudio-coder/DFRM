@@ -9012,6 +9012,11 @@ MonoBehaviour:
   position3Text: {fileID: 1200888770}
   position4Text: {fileID: 1255023465}
   position5Text: {fileID: 1811152150}
+  position6Text: {fileID: 1740061604}
+  position7Text: {fileID: 1884450692}
+  position8Text: {fileID: 1819658596}
+  position9Text: {fileID: 1729836800}
+  position10Text: {fileID: 574011524}
   boostFillImage: {fileID: 1617702158}
   pushModeButton: {fileID: 552237502}
   fuelFillImage: {fileID: 522073360}
@@ -13374,8 +13379,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766140337}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 155.88457}
-  m_LocalScale: {x: 0.03333333, y: 0.03333333, z: 0.03333333}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1250367291}
@@ -13397,8 +13402,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -44.792236, y: -312.85275}
-  m_SizeDelta: {x: 250, y: 558.52}
+  m_AnchoredPosition: {x: 319, y: -35}
+  m_SizeDelta: {x: 250, y: 555}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &766140339
 MonoBehaviour:
@@ -24008,7 +24013,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1392976166
 Transform:
   m_ObjectHideFlags: 0
@@ -25680,7 +25685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RaceManager
   currentLap: 0
   totalLaps: 9999
-  gold: 0
+  gold: 5000000
   refuelCost: 50
   tireChangeCost: 75
   fuel: 100
