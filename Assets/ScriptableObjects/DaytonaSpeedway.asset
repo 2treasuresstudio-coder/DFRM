@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DaytonaSpeedway
   m_EditorClassIdentifier: Assembly-CSharp::TrackData
   trackName: Daytona Speedway
+  lapCount: 200
   trackDescription: The biggest event in stock car racing. Win this race to complete
     your career.
   trackImage: {fileID: 1195363023384506640, guid: 187fd72c6ffc130438e94e0eb5926800, type: 3}

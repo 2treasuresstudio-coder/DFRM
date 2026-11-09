@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: StockCarRace
   m_EditorClassIdentifier: Assembly-CSharp::TrackData
   trackName: Stock Car Race
+  lapCount: 50
   trackDescription: Perfect for earning steady income and developing your team.
+  trackImage: {fileID: 3438595648220591726, guid: 792080975d079f94ebf988031b4674d0, type: 3}
   requiredRating: 0
   entryFee: 0
   firstPrize: 250
   secondPrize: 150
   thirdPrize: 75
-  trackImage: {fileID: 3438595648220591726, guid: 792080975d079f94ebf988031b4674d0, type: 3}
   straightPercent: 50
   cornerPercent: 40
   technicalPercent: 10
+  isLeagueEvent: 0

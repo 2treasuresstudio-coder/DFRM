@@ -169,10 +169,10 @@ TextureImporter:
       name: AI-1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 375
-        width: 161
-        height: 318
+        x: 67
+        y: 436
+        width: 112
+        height: 257
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: AI-2
       rect:
         serializedVersion: 2
-        x: 250
-        y: 375
-        width: 162
-        height: 318
+        x: 275
+        y: 436
+        width: 112
+        height: 257
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: AI-3
       rect:
         serializedVersion: 2
-        x: 457
-        y: 375
-        width: 161
-        height: 318
+        x: 481
+        y: 436
+        width: 112
+        height: 257
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: AI-4
       rect:
         serializedVersion: 2
-        x: 672
-        y: 375
-        width: 161
-        height: 318
+        x: 696
+        y: 436
+        width: 112
+        height: 257
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: AI-5
       rect:
         serializedVersion: 2
-        x: 876
-        y: 375
-        width: 161
-        height: 318
+        x: 903
+        y: 436
+        width: 112
+        height: 257
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: AI-6
       rect:
         serializedVersion: 2
-        x: 42
-        y: 31
-        width: 161
-        height: 318
+        x: 68
+        y: 91
+        width: 112
+        height: 258
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,10 +301,10 @@ TextureImporter:
       name: AI-7
       rect:
         serializedVersion: 2
-        x: 250
-        y: 31
-        width: 162
-        height: 318
+        x: 276
+        y: 91
+        width: 112
+        height: 258
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: AI-8
       rect:
         serializedVersion: 2
-        x: 457
-        y: 31
-        width: 161
-        height: 318
+        x: 482
+        y: 91
+        width: 112
+        height: 258
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,10 +345,10 @@ TextureImporter:
       name: AI-9
       rect:
         serializedVersion: 2
-        x: 672
-        y: 31
-        width: 161
-        height: 318
+        x: 696
+        y: 91
+        width: 112
+        height: 258
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,10 +367,10 @@ TextureImporter:
       name: PLAYER-CAR
       rect:
         serializedVersion: 2
-        x: 876
-        y: 31
-        width: 161
-        height: 318
+        x: 902
+        y: 91
+        width: 112
+        height: 258
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

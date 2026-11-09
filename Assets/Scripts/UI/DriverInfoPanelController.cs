@@ -18,8 +18,8 @@ public class DriverInfoPanelController : MonoBehaviour
     [Header("Stat Values")]
     public TextMeshProUGUI racecraftValue;
     public TextMeshProUGUI consistencyValue;
-    public TextMeshProUGUI aggressionValue;
-    public TextMeshProUGUI adaptabilityValue;
+    public TextMeshProUGUI overtakingValue;
+    public TextMeshProUGUI versatilityValue;
     public TextMeshProUGUI fitnessValue;
 
     [Header("Career Stats")]
@@ -189,11 +189,11 @@ public class DriverInfoPanelController : MonoBehaviour
         consistencyValue.text =
             driver.Consistency.ToString("N0");
 
-        aggressionValue.text =
-            driver.Aggression.ToString("N0");
+        overtakingValue.text =
+            driver.Overtaking.ToString("N0");
 
-        adaptabilityValue.text =
-            driver.Adaptability.ToString("N0");
+        versatilityValue.text =
+            driver.Versatility.ToString("N0");
 
         fitnessValue.text =
             driver.Fitness.ToString("N0");
@@ -231,8 +231,8 @@ public class DriverInfoPanelController : MonoBehaviour
 
         racecraftValue.text = "0";
         consistencyValue.text = "0";
-        aggressionValue.text = "0";
-        adaptabilityValue.text = "0";
+        overtakingValue.text = "0";
+        versatilityValue.text = "0";
         fitnessValue.text = "0";
 
         racesText.text = "0";

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LocalSpeedway
   m_EditorClassIdentifier: Assembly-CSharp::TrackData
   trackName: Local Speedway
+  lapCount: 75
   trackDescription: A local oval where acceleration and top speed matter.
   trackImage: {fileID: 4411980410888491217, guid: 7184a6b48de5a59448987b92fa07341b, type: 3}
   requiredRating: 100

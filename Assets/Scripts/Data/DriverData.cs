@@ -20,9 +20,9 @@ public class DriverData
 
     public int Consistency;
 
-    public int Aggression;
+    public int Overtaking;
 
-    public int Adaptability;
+    public int Versatility;
 
     public int Fitness;
 

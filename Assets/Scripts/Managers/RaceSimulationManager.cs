@@ -72,6 +72,13 @@ public class RaceSimulationManager : MonoBehaviour
 
     public void SetupRace()
     {
+        if (TrackManager.Instance != null &&
+        TrackManager.Instance.currentTrack != null)
+        {
+            maxLaps =
+                TrackManager.Instance.currentTrack.lapCount;
+        }
+
         raceEntries.Clear();
 
         DriverData player =
@@ -129,8 +136,8 @@ public class RaceSimulationManager : MonoBehaviour
         entry.driverRating =
             player.Racecraft +
             player.Consistency +
-            player.Aggression +
-            player.Adaptability +
+            player.Overtaking +
+            player.Versatility +
             player.Fitness;
 
         entry.carRating = 0;

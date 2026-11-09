@@ -21,8 +21,8 @@ public class RecruitmentPopupController : MonoBehaviour
     [Header("Stat Values")]
     public TextMeshProUGUI racecraftValue;
     public TextMeshProUGUI consistencyValue;
-    public TextMeshProUGUI aggressionValue;
-    public TextMeshProUGUI adaptabilityValue;
+    public TextMeshProUGUI overtakingValue;
+    public TextMeshProUGUI versatilityValue;
     public TextMeshProUGUI fitnessValue;
 
     [Header("Trait Icon")]
@@ -131,11 +131,11 @@ public class RecruitmentPopupController : MonoBehaviour
         consistencyValue.text =
             candidate.Consistency.ToString("N0");
 
-        aggressionValue.text =
-            candidate.Aggression.ToString("N0");
+        overtakingValue.text =
+            candidate.Overtaking.ToString("N0");
 
-        adaptabilityValue.text =
-            candidate.Adaptability.ToString("N0");
+        versatilityValue.text =
+            candidate.Versatility.ToString("N0");
 
         fitnessValue.text =
             candidate.Fitness.ToString("N0");
@@ -162,8 +162,8 @@ public class RecruitmentPopupController : MonoBehaviour
         int overall =
             (driver.Racecraft +
              driver.Consistency +
-             driver.Aggression +
-             driver.Adaptability +
+             driver.Overtaking +
+             driver.Versatility +
              driver.Fitness) / 5;
 
         return overall * 2;

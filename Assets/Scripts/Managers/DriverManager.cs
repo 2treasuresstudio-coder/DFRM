@@ -208,10 +208,10 @@ public class DriverManager : MonoBehaviour
                 driver.Consistency =
                     Random.Range(1, 10);
 
-                driver.Aggression =
+                driver.Overtaking =
                     Random.Range(1, 10);
 
-                driver.Adaptability =
+                driver.Versatility =
                     Random.Range(1, 10);
 
                 driver.Fitness =
@@ -233,10 +233,10 @@ public class DriverManager : MonoBehaviour
                 driver.Consistency =
                     Random.Range(500, 2001);
 
-                driver.Aggression =
+                driver.Overtaking =
                     Random.Range(500, 2001);
 
-                driver.Adaptability =
+                driver.Versatility =
                     Random.Range(500, 2001);
 
                 driver.Fitness =
@@ -258,10 +258,10 @@ public class DriverManager : MonoBehaviour
                 driver.Consistency =
                     Random.Range(2000, 10001);
 
-                driver.Aggression =
+                driver.Overtaking =
                     Random.Range(2000, 10001);
 
-                driver.Adaptability =
+                driver.Versatility =
                     Random.Range(2000, 10001);
 
                 driver.Fitness =
@@ -283,10 +283,10 @@ public class DriverManager : MonoBehaviour
                 driver.Consistency =
                     Random.Range(10000, 50001);
 
-                driver.Aggression =
+                driver.Overtaking =
                     Random.Range(10000, 50001);
 
-                driver.Adaptability =
+                driver.Versatility =
                     Random.Range(10000, 50001);
 
                 driver.Fitness =

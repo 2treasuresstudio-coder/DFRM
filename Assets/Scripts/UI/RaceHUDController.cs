@@ -327,8 +327,8 @@ public class RaceHUDController : MonoBehaviour
         int driverRating =
             driver.Racecraft +
             driver.Consistency +
-            driver.Aggression +
-            driver.Adaptability +
+            driver.Overtaking +
+            driver.Versatility +
             driver.Fitness;
 
         int carRating = 0;

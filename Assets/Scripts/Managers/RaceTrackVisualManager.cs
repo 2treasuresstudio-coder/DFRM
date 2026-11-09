@@ -255,14 +255,39 @@ public class RaceTrackVisualManager : MonoBehaviour
             Vector3 nextPos =
                 raceWaypoints[nextWaypoint].position;
 
-            car.transform.position =
+            Vector3 centerPosition =
                 Vector3.Lerp(
                     currentPos,
                     nextPos,
                     lerpValue);
 
+            int lookAheadWaypoint =
+                (currentWaypoint + 4)
+                % raceWaypoints.Length;
+
+            Vector3 lookAheadPos =
+                raceWaypoints[lookAheadWaypoint]
+                    .position;
+
             Vector3 direction =
-                nextPos - currentPos;
+                (lookAheadPos - currentPos)
+                    .normalized;
+
+            Vector3 laneNormal =
+                new Vector3(
+                    -direction.y,
+                    direction.x,
+                    0f);
+
+            car.UpdateLaneOffset(
+                Time.deltaTime);
+
+            centerPosition +=
+                laneNormal *
+                car.GetLaneOffset();
+
+            car.transform.position =
+                centerPosition;
 
             if (direction.sqrMagnitude > 0.001f)
             {
@@ -284,9 +309,9 @@ public class RaceTrackVisualManager : MonoBehaviour
 
                 float driftOffset =
                     Mathf.Clamp(
-                        turnDifference * 0.35f,
-                        -maxDriftAngle,
-                        maxDriftAngle);
+                        turnDifference * 0.1f,
+                        -5f,
+                        5f);
 
                 float finalAngle =
                     targetAngle +
@@ -301,10 +326,11 @@ public class RaceTrackVisualManager : MonoBehaviour
                         finalAngle);
 
                 car.transform.rotation =
-                    Quaternion.Slerp(
+                    Quaternion.RotateTowards(
                         car.transform.rotation,
                         targetRotation,
                         rotationSpeed *
+                        360f *
                         Time.deltaTime);
             }
         }

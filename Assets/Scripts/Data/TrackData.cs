@@ -7,6 +7,7 @@ public class TrackData : ScriptableObject
 {
     [Header("Track Info")]
     public string trackName;
+    public int lapCount;
 
     [TextArea]
     public string trackDescription;

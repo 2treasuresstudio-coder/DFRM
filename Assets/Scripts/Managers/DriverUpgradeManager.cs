@@ -36,8 +36,8 @@ public class DriverUpgradeManager : MonoBehaviour
     {
         "Racecraft",
         "Consistency",
-        "Aggression",
-        "Adaptability",
+        "Overtaking",
+        "Versatility",
         "Fitness"
     };
 
@@ -171,23 +171,23 @@ public class DriverUpgradeManager : MonoBehaviour
 
                 break;
 
-            case "Aggression":
+            case "Overtaking":
 
-                selectedDriver.Aggression +=
+                selectedDriver.Overtaking +=
                     Mathf.Max(
                         1,
                         Mathf.RoundToInt(
-                            selectedDriver.Aggression * 2f)); //===!THIS IS FOR DEMO ONLY !===//
+                            selectedDriver.Overtaking * 2f)); //===!THIS IS FOR DEMO ONLY !===//
 
                 break;
 
-            case "Adaptability":
+            case "Versatility":
 
-                selectedDriver.Adaptability +=
+                selectedDriver.Versatility +=
                     Mathf.Max(
                         1,
                         Mathf.RoundToInt(
-                            selectedDriver.Adaptability * 2f)); //===!THIS IS FOR DEMO ONLY !===//
+                            selectedDriver.Versatility * 2f)); //===!THIS IS FOR DEMO ONLY !===//
 
                 break;
 

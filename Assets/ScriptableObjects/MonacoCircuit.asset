@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: MonacoCircuit
   m_EditorClassIdentifier: Assembly-CSharp::TrackData
   trackName: Monaco Circuit
+  lapCount: 150
   trackDescription: A technical circuit rewarding precision and consistency.
   trackImage: {fileID: -7516881874443484024, guid: fcd9dba4f66e30b49bcaffd9cf8d4769, type: 3}
   requiredRating: 300

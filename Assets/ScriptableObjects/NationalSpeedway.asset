@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NationalSpeedway
   m_EditorClassIdentifier: Assembly-CSharp::TrackData
   trackName: National Speedway
+  lapCount: 100
   trackDescription: One of the fastest tracks in the country.
   trackImage: {fileID: 1195363023384506640, guid: 187fd72c6ffc130438e94e0eb5926800, type: 3}
   requiredRating: 600
